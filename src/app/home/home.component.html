@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div id="image1">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg bg-body-transparent">
+                    <div class="container-fluid">
+                     
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link" [ngClass] ="home == true ? 'myactive' : 'nav-link' " (click)="selectedNav('home')">HOME</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" [ngClass] ="about == true ? 'myactive' : 'nav-link' " (click)="selectedNav('about')">ABOUT US</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" [ngClass] ="portfolio == true ? 'myactive' : 'nav-link' " (click)="selectedNav('portfolio')">PORTFOLIO</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" [ngClass] ="services == true ? 'myactive' : 'nav-link' " (click)="selectedNav('services')">SEVICES</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" [ngClass] ="contact == true ? 'myactive' : 'nav-link' " (click)="selectedNav('contact')">CONTACT US</a>
+                            
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <i class="fa fa-linkedin social-icon" ></i>
+                            <i class="fa fa-pinterest social-icon" ></i>
+                            <i class="fa fa-google social-icon" ></i>
+                            <i class="fa fa-phone social-icon" ></i>
+                         
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+
+                  <div class="user-name">
+                    <p>Jaison</p>
+                  </div>
+
+                  <div class="wrapper">
+                    <div class="section1">
+                        <div class="inner-section1">
+                            <div class="heading">
+                                <h1>I AM <br>
+                                DESIGNER</h1>
+                                <p class="subject">I Make Wonderful Things</p>
+                                <p class="para">
+                                    Graphic designers create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and captivate consumers.
+                                    They develop the overall layout and production design for applications such as advertisements, brochures, magazines, and reports.
+                                </p>
+                                <div class="d-flex justify-content-center pt-2">
+                                    <button type="button" class="read-btn">READ MORE</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section2">
+                        <div>
+                            <div class="row">
+                                <div class="column1 col-md-6 col-sm-12 pb-5">
+                                    <div class="section2-subject1">
+                                        <p>CREATIVE AND POFESSIONAL</p>
+                                        <p>
+                                            As a creative designer you’ll typically be producing art to promote a company or specific services and products. A ‘creative designer’ is an umbrella term that multiple creative professions across a variety of industries fall under, including fashion designers, photographers, artists, and graphic designers.
+                                        </p>
+                                        <p>
+                                            In this role, you can expect to help create a brand identity and enhance profitability for your employers. You’ll typically work in a team setting and be tasked with generating ideas and artistic concepts
+                                        </p>
+                                        <div class="pt-2">
+                                            <button type="button" class="read-btn">READ MORE</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column2 col-md-6 col-sm-12 pb-5">
+                                    <div class="section2-subject2">
+                                        <p>OUR TEAM</p>
+
+                                        <div class="d-flex">
+                                            <div class="users d-flex align-items-center">
+                                                <img src="../../assets/images/user1.jpg" class="image1">
+                                            </div>
+                                            <div class="d-flex align-items-center ps-2">
+                                               <div>
+                                                <span>JOHN DOE</span><br>
+                                                <span>Manager</span><br>
+                                                <span>Ensures a safe and secure environment</span>
+                                               </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex my-4">
+                                            <div class="users d-flex align-items-center">
+                                                <img src="../../assets/images/user2.jpg" class="image1">
+                                            </div>
+                                            <div class="d-flex align-items-center ps-2">
+                                               <div>
+                                                <span>ALEX PASTON</span><br>
+                                                <span>Graphic Designer</span><br>
+                                                <span>Ensures that design look good</span>
+                                               </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex">
+                                            <div class="users d-flex align-items-center">
+                                                <img src="../../assets/images/user3.jpg" class="image1">
+                                            </div>
+                                            <div class="d-flex align-items-center ps-2">
+                                               <div>
+                                                <span>John Doe</span><br>
+                                                <span>Web Designer</span><br>
+                                                <span>Ensures a great user experience</span>
+                                               </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section3">
+                        <div class="work-title d-flex justify-content-center">
+                            <p>SELECTED WORK</p>
+                        </div>
+                        <div class="work-detail d-flex justify-content-center">
+                            <a>ALL</a>
+                            <a>WEB DESIGN</a>
+                            <a>LOGO DESIGN</a>
+                            <a>BRANDING</a>
+                        </div>
+                       <div class="py-4">
+                        <div class="cstm-flex d-flex justify-content-center">
+                            <div class="w-50 cst-height">
+                               <img src="../../assets/images/section3-image1.jpg" class="sec3-image">
+                              
+                            </div>
+                            <div class="w-50 cst-height">
+                                <img src="../../assets/images/section3-image2.jpg" class="sec3-image">
+                            </div>
+                        </div>
+                        <div class="cstm-flex d-flex justify-content-center">
+                            <div class="w-50 cst-height">
+                                <img src="../../assets/images/section3-image3.jpg" class="sec3-image">
+                                
+                            </div>
+                            <div class="w-50 cst-height">
+                                <img src="../../assets/images/section3-image4.jpg" class="sec3-image">
+                            </div>
+                        </div>
+                       </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div id="image2">
+            <img src="../../assets/images/background2.jpg">
+        </div>
+        <div id="image3">
+            <div class="container">
+                <div class="last-form pb-3">
+                    <p class="heading4 text-center">GET IN TOUCH</p>
+                </div>
+                <div class="d-flex justify-content-center">
+                   
+                        <div class="input-field pe-3">
+                            <div class="pb-2">
+                                 <input type="text" placeholder="NAME">
+                            </div>
+                             <div class="pb-2">
+                                 <input type="text" placeholder="EMAIL">
+                             </div>
+                         </div>
+                         <div class="text-area ps-3 ">
+                             <textarea placeholder="MESSAGE"></textarea>
+                         </div>
+                    
+                </div>
+                <div class="d-flex justify-content-center pt-4">
+                    <button type="button" class="read-btn">READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   
+</body>
+</html>
